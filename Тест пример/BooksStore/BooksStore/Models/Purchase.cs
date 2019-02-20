@@ -21,7 +21,7 @@ namespace BooksStore.Models
         public int BookId { get; set; }
 
         //Дата покупки
-        public DateTime Time { get; set; }
+        public DateTime Date { get; set; }
 
 
     }
