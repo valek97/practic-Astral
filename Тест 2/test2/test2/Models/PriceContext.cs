@@ -13,5 +13,6 @@ namespace test2.Models
         public DbSet<Price_trend> Price_trend { get; set; }
         public DbSet<Tarif> Tarif { get; set; }
         public DbSet<Tarif_atribute> Tarif_atribute { get; set; }
+        public PriceContext() : base("PriceContext") { }
     }
 }

@@ -13,7 +13,7 @@ namespace test2.Models
         // название книги
         public string Guid { get; set; }
         // наименование тарифа
-        public char Name { get; set; }
+        public string Name { get; set; }
         // Тип тарифа
         public int Type { get; set; }
         // Группа
@@ -21,7 +21,7 @@ namespace test2.Models
         // Дата создания
         public DateTime Datecreate { get; set; }
         // Артикул
-        public char Article { get; set; }
+        public string Article { get; set; }
 
 
     }

@@ -25,7 +25,8 @@ namespace test2.Controllers
             //получение из бд все объекты Tarif
             IEnumerable<Price_trend> Price_trend = db.Price_trend;
 
-
+            //передача объектов в View
+            ViewBag.Tarifs = tarifs;
 
             return View();
         }
